@@ -1,0 +1,8 @@
+{
+  "replace": "false",
+  "values": [
+    "kmagic:ruby_block",
+    "kmagic:raw_ruby_block",
+    "kmagic:ruby_ore"
+  ]
+}

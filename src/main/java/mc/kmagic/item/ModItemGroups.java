@@ -1,6 +1,7 @@
 package mc.kmagic.item;
 
 import mc.kmagic.KMagic;
+import mc.kmagic.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -16,6 +17,10 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.Ruby)).entries((displayContext, entries) -> {
                         entries.add(ModItems.Ruby);
                         entries.add(ModItems.RAW_RUBY);
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModItems.METAL_DETECTOR);
                     }).build());
 
     public static void registerItemGroups() {

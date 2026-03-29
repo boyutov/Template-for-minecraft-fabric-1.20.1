@@ -1,5 +1,6 @@
 package mc.kmagic;
 
+import mc.kmagic.block.ModBlocks;
 import mc.kmagic.item.ModItemGroups;
 import mc.kmagic.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,5 +16,6 @@ public class KMagic implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }

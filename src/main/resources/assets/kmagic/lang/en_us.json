@@ -1,5 +1,11 @@
 {
   "item.kmagic.ruby": "Ruby",
-  "item.kmagic.raw_ruby": "Raw Ruby"
+  "item.kmagic.raw_ruby": "Raw Ruby",
+  "item.kmagic.metal_detector": "Metal Detector",
 
+  "block.kmagic.ruby_block": "Block of Ruby",
+  "block.kmagic.raw_ruby_block": "Raw Block of Ruby",
+  "block.kmagic.ruby_ore": "Ruby Ore",
+
+  "itemgroup.ruby": "Ruby Group"
 }

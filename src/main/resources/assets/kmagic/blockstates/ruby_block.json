@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "kmagic:block/ruby_block"
+    }
+  }
+}
